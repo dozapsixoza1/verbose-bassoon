@@ -1,0 +1,73 @@
+# KVAZAR / Kvazarchik
+# Основные настройки проекта.
+# Реальный BOT_TOKEN хранится отдельно в config_local.py
+
+BOT_TOKEN = ""
+
+GUILD_ID = 1554517494474088469
+OWNER_ID = 1147184359581946006
+
+BOT_NAME = "Kvazarchik"
+PREFIX = "!"
+
+# =========================
+# DATABASE
+# =========================
+
+DATABASE_PATH = "data/kvazar.sqlite3"
+
+# Опционально.
+# Если PostgreSQL не используешь — оставь пустым.
+POSTGRES_DSN = ""
+
+# Опционально.
+# Если Redis не используешь — оставь пустым.
+REDIS_URL = ""
+
+# =========================
+# APPEARANCE
+# =========================
+
+EMBED_COLOR = 0x7C3AED
+
+# =========================
+# CHANNELS
+# =========================
+
+LOG_CHANNEL_ID = 1554517496349065396
+MOD_LOG_CHANNEL_ID = 1554517496583823464
+
+SUPPORT_CATEGORY_ID = 1554517496151937067
+STAFF_CHANNEL_ID = 1554517496151937068
+EVENT_CHANNEL_ID = 1554517498466930809
+GIVEAWAY_CHANNEL_ID = 1554547018297253928
+
+# =========================
+# ROLES
+# =========================
+
+ADMIN_ROLE_ID = 1554517494474088478
+MODERATOR_ROLE_ID = 1554517494482337919
+STAFF_ROLE_ID = 1554517494474088470
+SUPPORT_ROLE_ID = 1554517494482337920
+
+# =========================
+# ECONOMY
+# =========================
+
+DAILY_REWARD = 250
+MESSAGE_REWARD = 5
+MESSAGE_COOLDOWN = 60
+
+# =========================
+# MODERATION
+# =========================
+
+DEFAULT_WARN_LIMIT = 3
+DEFAULT_TIMEOUT_MINUTES = 10
+
+# =========================
+# PAYMENTS
+# =========================
+
+PAYMENT_WEBHOOK_SECRET = ""
