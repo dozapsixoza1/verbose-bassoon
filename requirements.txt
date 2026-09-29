@@ -1,5 +1,1 @@
-discord.py>=2.5,<3
-aiohttp>=3.10,<4
-aiofiles>=24,<26
-aiosqlite>=0.20,<1
-Pillow>=10,<12
+discord.py>=2.4.0
